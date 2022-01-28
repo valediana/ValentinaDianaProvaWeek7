@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftCard", "GiftCard\GiftCard.csproj", "{B6FFB1A4-7D47-4ED2-A050-9780CB255B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GiftCard.Desktop", "GiftCard.Desktop", "{0FFB7FE1-82D9-40F3-8305-824951F1645A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftCard.Desktop.Core", "GiftCard.Desktop.Core\GiftCard.Desktop.Core.csproj", "{483E7B5A-A0BC-4A7E-B5A8-4DBA1F7B39D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftCard.Desktop.Core.Mock", "GiftCard.Desktop.Core.Mock\GiftCard.Desktop.Core.Mock.csproj", "{E152B442-F9F1-4EBA-898E-66DB2ECFE34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftCard.Desktop.WPF", "GiftCard.Desktop.WPF\GiftCard.Desktop.WPF.csproj", "{E6B77A19-D64B-41B4-BCAD-FC5DA968818A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftCard.Desktop.WPF.Test", "GiftCard.Desktop.WPF.Test\GiftCard.Desktop.WPF.Test.csproj", "{60ECD2BA-0970-4E3F-96F5-12CD45D8B9AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6FFB1A4-7D47-4ED2-A050-9780CB255B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FFB1A4-7D47-4ED2-A050-9780CB255B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FFB1A4-7D47-4ED2-A050-9780CB255B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FFB1A4-7D47-4ED2-A050-9780CB255B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483E7B5A-A0BC-4A7E-B5A8-4DBA1F7B39D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483E7B5A-A0BC-4A7E-B5A8-4DBA1F7B39D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483E7B5A-A0BC-4A7E-B5A8-4DBA1F7B39D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483E7B5A-A0BC-4A7E-B5A8-4DBA1F7B39D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E152B442-F9F1-4EBA-898E-66DB2ECFE34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E152B442-F9F1-4EBA-898E-66DB2ECFE34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E152B442-F9F1-4EBA-898E-66DB2ECFE34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E152B442-F9F1-4EBA-898E-66DB2ECFE34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B77A19-D64B-41B4-BCAD-FC5DA968818A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B77A19-D64B-41B4-BCAD-FC5DA968818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B77A19-D64B-41B4-BCAD-FC5DA968818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B77A19-D64B-41B4-BCAD-FC5DA968818A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60ECD2BA-0970-4E3F-96F5-12CD45D8B9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60ECD2BA-0970-4E3F-96F5-12CD45D8B9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60ECD2BA-0970-4E3F-96F5-12CD45D8B9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60ECD2BA-0970-4E3F-96F5-12CD45D8B9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{483E7B5A-A0BC-4A7E-B5A8-4DBA1F7B39D8} = {0FFB7FE1-82D9-40F3-8305-824951F1645A}
+		{E152B442-F9F1-4EBA-898E-66DB2ECFE34C} = {0FFB7FE1-82D9-40F3-8305-824951F1645A}
+		{E6B77A19-D64B-41B4-BCAD-FC5DA968818A} = {0FFB7FE1-82D9-40F3-8305-824951F1645A}
+		{60ECD2BA-0970-4E3F-96F5-12CD45D8B9AC} = {0FFB7FE1-82D9-40F3-8305-824951F1645A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63E85AF6-3932-4D4D-AB18-F5D1B6C928AC}
+	EndGlobalSection
+EndGlobal
